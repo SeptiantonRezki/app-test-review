@@ -28,6 +28,7 @@ exports.convertDecimaltoBinary = (req, res, next) => {
     data: bin,
   });
 };
+// belum selesai
 exports.getPalindrome = (req, res, next) => {
   let str = req.body.value.toString().toLowerCase().split(" ").join("");
   let strBiasa = str.split("");
@@ -39,10 +40,10 @@ exports.getPalindrome = (req, res, next) => {
     //   console.log(strBiasa[i]);
     //   console.log(strReverse[strBiasa.length - i]);
     //
-    for (let j = 0; j < strReverse.length; j++) {
-        const element = strReverse[j];
+    // for (let j = 0; j < strReverse.length; j++) {
+    //     const element = strReverse[j];
         
-    }
+    // }
     if (strReverse[i] === strBiasa[i]) {
       strResult.push(strBiasa[i]);
     }
