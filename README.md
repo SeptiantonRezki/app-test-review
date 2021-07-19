@@ -2,7 +2,7 @@
 
 <h1>Test Interview</h1>
 <hr/>
-<h3> API POST PALINDROME <h3>
+<h3> API POST PALINDROME </h3>
 untuk pengambilan kata palindrome masih belum bisa
 127.0.0.1:3000/api/v1/users/palindrome
 {
