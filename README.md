@@ -1,5 +1,3 @@
-# app-test-review
-
 <h1>Test Interview</h1>
 <hr/>
 <h3> API POST PALINDROME </h3>
